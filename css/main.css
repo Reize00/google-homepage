@@ -17,29 +17,29 @@ ul {
 
 li {
     display: inline;
-    padding: 5;
+    padding: 6;
 }
 
 #header-1 {
     position: absolute;
     left: 0;
-    top: 10;
+    top: 8;
 }
 
 #header-2 {
     position: absolute;
-    right: -15;
-    top: 10;
+    right: -13;
+    top: 8;
 }
 
-.sign-in {
+#sign-in {
     color: white;
-    background-color: #659af0;
+    background-color: #4e8df1;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12;
     font-weight: bold;
     height: 30px;
-    width: 75px;
+    width: 70px;
     border-radius: 2px;
     border: none;
 }
@@ -61,4 +61,29 @@ li {
     width: 500px;
     top: 120px;
     left: -120px;
+}
+
+.buttons {
+    height: 34px;
+    border: none;
+    top: 190px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #5F6368;
+    text-align: center;
+    line-height: 27px;
+    white-space: nowrap;
+    width: 130px;
+}
+
+#search-button {
+    position: absolute;
+    border-radius: 2;
+    left: 0px;
+}
+
+#lucky-button {
+    position: absolute;
+    border-radius: 2;
+    left: 140px;
 }
