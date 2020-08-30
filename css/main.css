@@ -9,33 +9,44 @@ a:hover {
     text-decoration: underline;
 }
 
-#header {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
 }
 
-#link {
-    flex: 1 0 content;
+li {
+    display: inline;
+    padding: 5;
 }
 
-#buffer {
-    flex: 12 0 content;
+#header-1 {
+    position: absolute;
+    left: 0;
+    top: 10;
+}
+
+#header-2 {
+    position: absolute;
+    right: -15;
+    top: 10;
 }
 
 .sign-in {
     color: white;
     background-color: #659af0;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12;
+    font-weight: bold;
     height: 30px;
+    width: 75px;
     border-radius: 2px;
     border: none;
 }
 
 #body {
     position: fixed;
-    left: 38%;
+    left: 37%;
     top: 200px;
 }
 
